@@ -1,0 +1,5 @@
+{
+  "id": "ai-diary", "name": "AI 问答日记", "version": "0.4.0",
+  "minAppVersion": "1.11.5", "description": "通过日常问答记录经历和感受，形成日记、AI 观察以及独立归档的周记与月记。",
+  "author": "AI Diary", "isDesktopOnly": false
+}

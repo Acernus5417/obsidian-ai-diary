@@ -1,0 +1,14 @@
+node_modules/
+main.js
+dist/
+coverage/
+test-results/
+.env
+.env.*
+!example.env
+*.log
+
+# Local user materials and publishing tools must never be committed.
+private-rewrites/
+.publish-local/
+.obsidian/

@@ -1,0 +1,31 @@
+{
+  "name": "obsidian-ai-diary",
+  "version": "0.4.0",
+  "private": true,
+  "description": "AI 问答日记 Obsidian 插件",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest run tests/unit tests/evals",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "vitest run tests/e2e",
+    "test:browser": "node scripts/browser-check.mjs",
+    "eval": "tsx scripts/eval.ts",
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "package": "npm run build && node scripts/package.mjs"
+  },
+  "overrides": {
+    "moment": "^2.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "happy-dom": "^20.0.0",
+    "obsidian": "1.11.4",
+    "playwright": "1.62.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  }
+}
